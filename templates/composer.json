@@ -1,0 +1,24 @@
+{
+  "name": "bricre/ebay-sdk-{package}",
+  "description": "API client generated from OpenAPI definition from eBay's OpenAPI definition",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Allan Sun",
+      "email": "allan.sun@bricre.com"
+    }
+  ],
+  "require": {
+    "allansun/openapi-runtime": "^3.2"
+  },
+  "require-dev": {
+    "allansun/openapi-code-generator": "^1.1",
+    "allansun/openapi-parser": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "{escapedNamespace}\\": "/src"
+    }
+  }
+}
