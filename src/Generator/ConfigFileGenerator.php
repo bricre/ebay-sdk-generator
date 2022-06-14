@@ -30,6 +30,7 @@ class ConfigFileGenerator
             'return [' . PHP_EOL .
             'Config::OPTION_ROOT_SOURCE_DIR => \'' . $this->rootSourceDir . '\',' . PHP_EOL .
             'Config::OPTION_NAMESPACE_ROOT => \'' . $this->namespaceRoot . '\',' . PHP_EOL .
+            'Config::OPTION_TARGET_PHP_VERION => \'8.0\',' . PHP_EOL .
             '];');
         $fileGenerator->setBody($bodyGenerator->generate());
 
